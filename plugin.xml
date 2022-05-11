@@ -35,6 +35,14 @@
             <string>This ensures we can improve the experience for you across platforms</string>
         </config-file>    
         
+       
+        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+            <array>
+                <string>twitter</string>
+                <string>whatsapp</string>
+            </array>
+        </config-file>    
+        
     </platform>
     
 </plugin>
